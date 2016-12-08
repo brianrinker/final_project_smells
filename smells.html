@@ -84,7 +84,7 @@
       var selectedLayer;
       // create layer selector
       function createSelector(layers) {
-        var sql = new cartodb.SQL({ user: 'brinker' });
+        var sql = new cartodb.SQL({ user: 'https://brinker.carto.com/api/v2/viz/d89237bc-addd-11e6-9adb-0ee66e2c9693/viz.json' });
  
         var $options = $('#layer_selector li');
         $options.click(function(e) {
